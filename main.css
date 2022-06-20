@@ -1,0 +1,399 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 80px 0px;
+	position: relative;
+	max-width: 1501px;
+	max-height: 1870px;
+	background: #FAFAFA;
+}
+
+.logo{
+	position: static;
+	width: 118.72px;
+	height: 28px;
+	left: 0px;
+	top: 80px;
+}
+.header{
+	max-width: 1504px;
+	max-height: 358;
+	position: static;
+	left: 10px;
+	top: 187px;
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 79px 0px;
+
+}
+.header img{
+	position: relative;
+
+
+}
+.header .center-description{
+	position: absolute;
+	max-width: 540px;
+	max-height: 304px;
+	left: 482px;
+	top: -30px;
+}
+
+.header .center-description #description{
+	position: absolute;
+	width: 445px;
+	height: 128px;
+	left: 230px;
+	top: 234px;
+	color:#28283D;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 60px;
+	line-height: 84px;
+	text-align: center;
+}
+
+.center-description #sub-description{
+	position: absolute;
+	width: 540px;
+	height: 52px;
+	left: 232px;
+	top: 496px;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height:30px;
+	letter-spacing: 2px;
+	text-align: center;
+	color: #87879D;
+}
+
+.center-description .buttons{
+	position: absolute;
+	width: 348px;
+	height: 58px;
+	left: 232px;
+	top: 680px;
+}
+
+.center-description .buttons #download{
+	position: absolute;
+	width: 193px;
+	height: 58px;
+	border-radius:50px;
+	margin-top: 20px;
+	margin-left:70px;
+	text-align: center;
+	background: #4D96A9;
+	color: #fff;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 26px;
+
+}
+
+.center-description .buttons #what{
+	position: absolute;
+	width: 139px;
+	height: 58px;
+	border-radius: 50px;
+	margin-top: 20px;
+	margin-left: 300px;
+	background:#855FB1;
+
+	color: white;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 26px;
+}
+
+#picture1{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height:110px;
+	left: 90px;
+	top: 300px;
+}
+#picture2{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height:110px;
+	left: 90px;
+	top: 510px;
+}
+#picture3{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height:110px;
+	left: 300px;
+	top: 150px;
+}
+#picture4{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height:110px;
+	left: 300px;
+	top: 400px;
+}
+#picture5{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height:110px;
+	left: 500px;
+	top: 300px;
+}
+#picture6{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 500px;
+	top: 510px;
+}
+#picture7{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1410px;
+	top: 300px;
+}
+#picture8{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1410px;
+	top: 510px;
+}
+#picture9{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1610px;
+	top: 150px;
+
+
+}
+#picture10{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1610px;
+	top: 435px;
+}
+#picture11{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1854px;
+	top: 300px;
+}
+#picture12{
+	position: absolute;
+	border-radius: 100px;
+	width: 110px;
+	height: 110px;
+	left: 1854px;
+	top: 500px;
+}
+.body_container{
+	position: absolute;
+	width: 1110px;
+	height: 242px;
+	left: 0px;
+	top: 824px;
+	flex: none;
+	order: 2;
+	flex-grow: 0;
+	margin: 79px 0px;
+}
+
+.body_container div{
+	position: absolute;
+	width: 255px;
+	height: 242px;
+	left: 0px;
+	top: 324px;
+}
+
+.body_container div #Broda{
+	position: absolute;
+	width: 305px;
+	height:305px;
+	left: 92px;
+	top: -395px;
+	background: #D8D8D8;
+	border-radius: 8px;
+}
+
+.body_container div #Brod{
+	position: absolute;
+	width: 305px;
+	height:305px;
+	left: 450px;
+	top: -395px;
+	background: #D8D8D8;
+	border-radius: 8px;
+}
+
+.body_container div #Bro{
+	position: absolute;
+	width: 305px;
+	height:305px;
+	left: 810px;
+	top: -395px;
+	background: #D8D8D8;
+	border-radius: 8px;
+}
+
+.body_container div #Br{
+	position: absolute;
+	width: 305px;
+	height:305px;
+	left: 1170px;
+	top: -395px;
+	background: #D8D8D8;
+	border-radius: 8px;
+}
+
+.bottom{
+	position: absolute;
+	width: 540px;
+	height: 240px;
+	left: 0px;
+	top: 1300px;
+	flex: none;
+	order: 4;
+	flex-grow: 0;
+	margin: 79px 0px;
+}
+.bottom h5{
+	position: absolute;
+	height: 26px;
+	left: 24.63%;
+	right: 25%;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #4D96A9;
+}
+
+.bottom h4{
+	position: absolute;
+	left: 8.89%;
+	right: 8.7%;
+	top: 16.67%;
+	bottom: 46.67%;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 44px;
+	text-align: center;
+	color: #28283D;
+}
+.bottom p{
+	position: absolute;
+	left: 5%;
+	right: 0%;
+	top: 67.5%;
+	bottom: 0%;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #87879D;
+}
+.footer{
+	position: absolute;
+	width: 1110px;
+	height: 88px;
+	left: 0px;
+	top: 1702px;
+	flex: none;
+	flex-grow: 0;
+	margin: 79px 0px;
+}
+.footer h4{
+	position: absolute;
+	width: 350px;
+	height: 88px;
+	left: 0px;
+	top: 50px;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 40px;
+	line-height: 44px;
+	color: #979797;
+}
+
+.footer p{
+	position: absolute;
+	width: 350px;
+	height: 78px;
+	left: 475px;
+	top: 50px;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 26px;
+	color: #000000;
+}
+.footer .footer-button{
+	position: absolute;
+	width: 193px;
+	height: 58px;
+	left: 917px;
+	top: 50px;
+	
+}
+.footer .footer-button #download_footer{
+	position: absolute;
+	height: 26px;
+	width: 193px;
+	height: 58px;
+	top: 25%;
+	left: 25%;
+	right: 38.34%;
+	text-align: center;
+	font-family: 'Red Hat Display';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 16px;
+	line-height: 26px;
+	background: #855FB1;
+	border-radius: 29px;
+	color: #fff;
+}
